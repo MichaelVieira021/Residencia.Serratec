@@ -1,0 +1,62 @@
+//Michael de Paula Vieira
+-----------------------------------------------------------------
+
+A) Pesquise e responda:
+
+1) O que é algoritmo?
+    Algoritimo é um passo a passo para resolver um problema.
+
+2) O que é um programa de computador?
+    Um programa é um conjunto de algoritimo que resolve um problema.
+
+3) O que é uma variável?
+    Uma variável é utilizada para armazenar dados.
+
+4) O que é o Portugol Studio?
+    PortugolStudio é uma IDE utilizada para produzir pseudocodigo.
+
+5) O que faz o comando escreva do Portugol?
+    Exibe uma informação no terminal.
+
+6) O que faz o comando leia do Portugol?
+    Solicita a entrada de um dado.
+
+7) Defina o que é tipo de variável
+    Um tipo de variável define o tipo de dado que pode armazenar e as operações que podem ser realizadas sobre eles.
+
+8) Explique o que são os tipos de variáveis do Portugol:
+   a. cadeia
+    Conjunto de caracters.
+
+   b. inteiro
+    Número inteiro.
+
+   c. real
+    Número com casas decimais.
+
+   d. logico
+    verdadeiro ou falso.
+
+   e. caracter
+    Carácter único.
+
+9) Dê exemplo:
+   a. de entrada de um algoritmo
+        //solicitar a entrada de 5 nota.
+            inteiro nota[5]
+            para(inteiro i = 0; i < 5; i++){
+                leia(nota[i])
+            }
+ 
+   b. de processamento de um algoritmo
+        //realizar a média das 5 notas fornecidas.
+            inteiro soma = 0
+            para(inteiro i = 0; i < 5; i++){
+                soma += nota[i]
+            }
+            inteiro resultado = soma/5
+
+   c. de saída de um algoritmo
+        //exibir a média.
+        escreva(resultado)
+
