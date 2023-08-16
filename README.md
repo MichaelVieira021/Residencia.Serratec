@@ -3,9 +3,9 @@
 
 |    Trilha de Aprendizado                                            |    Tecnologia Utilizada    |
 |:-------------------------------------------------------------------:|:--------------------------:|
-| <p align = "Left">[Lógica de Programação](./LOGICA.DE.PROGRAMACAO/) | `Portugol Studio`          |
-| <p align = "Left">[Comandos GIT](./GIT/)                            | `GIT`                      |
-| <p align = "Left">[Banco de Dados](./BANCO.DE.DADOS/)               | `PostgreSQL`               |
-| <p align = "Left">[Programação Orientada a Objetos](./POO/)         | `Eclipse`                  |
+| <p align = "Left">[Lógica de Programação](./logicaDeProgramacao/) | `Portugol Studio`          |
+| <p align = "Left">[Comandos GIT](./git/)                            | `GIT`                      |
+| <p align = "Left">[Banco de Dados](./bancoDeDados/)               | `PostgreSQL`               |
+| <p align = "Left">[Programação Orientada a Objetos](./programacaoOrientadaObjeto/)         | `Eclipse`                  |
 
 </div>
