@@ -58,3 +58,20 @@
 | `git remote -v` | Listar conexões remotas |
 | `git remote set-url [nome do branch] [url]` | Alterar a URL |
 
+### Comandos do Terminal 
+
+| Comando | Descrição |
+| ------- | --------- |
+| `cd [caminho]` | Mudar de diretório |
+| `mkdir [nome]` | Criar diretório |
+| `ls -a` | Listar informações sobre os arquivos |
+| `clear` | Limpar a tela do terminal |
+| `Touch [nome.txt]` | Criar um arquivo vazio |
+| `nano [nome.txt]` | Editor de texto simples para editar o arquivo especificado |
+| `cat [nome.txt]` | Concatenar arquivos e imprimir na saída padrão |
+| `rm [arquivo]` | Remover arquivos |
+| `rm -rf [dir]` | Remover diretórios |
+| `pwd` | Mostrar o nome do diretório atual |
+| `mv` | Mover (renomear) arquivos |
+| `sudo` | Executar um comando como outro usuário |
+
