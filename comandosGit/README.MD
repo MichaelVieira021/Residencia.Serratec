@@ -62,16 +62,16 @@
 
 | Comando | Descrição |
 | ------- | --------- |
-| `cd [caminho]` | Mudar de diretório |
-| `mkdir [nome]` | Criar diretório |
-| `ls -a` | Listar informações sobre os arquivos |
+| `cd [caminho]` | Altera o diretório atual |
+| `mkdir [nome]` | Cria um novo diretório |
+| `ls -a` | Lista todos os arquivos no diretório, incluindo os ocultos |
 | `clear` | Limpar a tela do terminal |
 | `Touch [nome.txt]` | Criar um arquivo vazio |
 | `nano [nome.txt]` | Editor de texto simples para editar o arquivo especificado |
-| `cat [nome.txt]` | Concatenar arquivos e imprimir na saída padrão |
+| `cat [nome.txt]` | Exibe o conteúdo de um arquivo |
 | `rm [arquivo]` | Remover arquivos |
-| `rm -rf [dir]` | Remover diretórios |
-| `pwd` | Mostrar o nome do diretório atual |
-| `mv` | Mover/renomear arquivos |
-| `sudo` | Executar um comando como super usuário |
+| `rm -rf [dir]` | Remove um diretório e seu conteúdo de forma recursiva |
+| `pwd` | Exibe o caminho completo do diretório atual |
+| `mv` | Move ou renomeia arquivos e diretórios |
+| `sudo` | Executa um comando com privilégios de administrador |
 
