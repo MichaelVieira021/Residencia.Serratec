@@ -72,6 +72,6 @@
 | `rm [arquivo]` | Remover arquivos |
 | `rm -rf [dir]` | Remover diretórios |
 | `pwd` | Mostrar o nome do diretório atual |
-| `mv` | Mover (renomear) arquivos |
-| `sudo` | Executar um comando como outro usuário |
+| `mv` | Mover/renomear arquivos |
+| `sudo` | Executar um comando como super usuário |
 
