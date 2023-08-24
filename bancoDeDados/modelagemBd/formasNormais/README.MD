@@ -1,0 +1,9 @@
+<h1 align="center">✏️ FORMAS NORMAIS EM BANCOS DE DADOS</h1>
+
+<div align="center"> 
+ ✔️ PROCESSO PARA EVITAR ANOMALIA NAS TABELAS
+ 
+<br>
+
+**(PFD CONTÉM TODO MATERIAL PARA ENTENDIMENTO DAS FORMAS)**
+</div>

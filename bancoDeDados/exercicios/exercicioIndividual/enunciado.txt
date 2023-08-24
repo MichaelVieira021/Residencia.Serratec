@@ -1,0 +1,47 @@
+Criar uma tabela de documentos com os seguintes campos:
+
+id sequencial
+número do documento
+data do documento
+valor total
+valor liquido
+
+Criar uma tabela de produtos com os seguintes campos:
+
+id sequencial
+codigo do produto
+nome do produto
+valor do custo do produto
+valor de venda do produto
+
+Criar uma tabela de produtos do documento com os seguintes campos:
+
+id sequencial
+documento (relacionado à tabela de documentos - chave estrangeira)
+produto (relacionado à tabela de produtos - chave estrangeira)
+quantidade
+valor unitário
+valor de desconto
+valor de acréscimo
+valor bruto
+valor liquido
+
+
+Criar uma tabela de clientes com os seguintes campos:
+
+id sequencial
+nome do cliente
+
+Inserir 5 registros em cada tabela pelo menos
+
+
+Consultas:
+
+1- Mostrar um documento com seus produtos (através de join)
+2- Mostrar lista de produtos com valor maior que 100,00
+3- Mostrar um documento com o nome de cliente e o nome dos produtos
+
+Atualizações:
+1- Alterar o nome do produto
+2- Alterar o valor do produto
+3- Reajustar em 10% o valor de venda dos produtos

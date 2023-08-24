@@ -1,0 +1,13 @@
+## DDL  
+CREATE  
+ALTER  
+DROP  
+  
+## DML  
+INSERT  
+UPDATE  
+DELETE  
+  
+## DQL  
+SELECT  
+
