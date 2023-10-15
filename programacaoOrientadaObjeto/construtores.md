@@ -1,0 +1,1 @@
+Um construtor é um método especial de uma classe que é usado para inicializar objetos dessa classe. Ele tem o mesmo nome da classe e não possui um tipo de retorno. A principal finalidade de um construtor é garantir que um objeto seja criado com um estado inicial adequado.

@@ -1,0 +1,1 @@
+Em certos momentos é necessario fazer a proteção dos dados, o encapsulamento é quando você permite que um atributo seja modificado apenas através de um método, fazendo com que antes do atributo ser modificado ele tenha que passar por certas condições. Porem um atributo publico que tenho por exemplo get/set tambem pode ser considerado um encapsulamento apesar de não ser o correto.

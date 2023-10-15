@@ -1023,13 +1023,22 @@ programa
 		escreva("\n")
 		}
 	}
+
+	funcao linhaInteligente(cadeia sb, inteiro tamanho, inteiro nLinha){
+		para(inteiro j = 0; j <= nLinha; j++){
+			para(inteiro i = 0; i <= tamanho; i++){
+				escreva(sb)
+			}
+			escreva("\n")
+		}
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 725; 
+ * @POSICAO-CURSOR = 27615; 
  * @DOBRAMENTO-CODIGO = [21, 32, 128, 192, 203, 265, 311, 348, 346, 388, 428, 456, 485, 483, 529, 577, 640, 697, 762, 804, 853, 918, 942, 970, 979, 985, 1003, 1010, 1016];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {v_nome, 17, 8, 6}-{v_idadeProtegida, 17, 31, 16}-{v_idade, 18, 9, 7};

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="../conteudo/favicons/pokeball.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/pokedexDS.css">
+
+	<!-- script -->
+	<script src="../script/controlador.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div id="container">
+        <!-- corpo do nintendo -->
+		<div id="body">
+			<!-- camera -->
+			<div id="cam-mic-holder">
+				<div id="camera">
+					<div id="mic">
+					</div>
+				</div>
+			</div>
+			<!-- alto-falante esquerdo -->
+			<div id="left-speaker">
+				<div class="speaker-hole" id="top-left-hole">
+				</div>
+				
+				<div class="speaker-hole" id="middle-left-hole">
+				</div>
+				
+				<div class="speaker-hole" id="left-left-hole">
+				</div>
+				
+				<div class="speaker-hole" id="right-left-hole">
+				</div>
+				
+				<div class="speaker-hole" id="bottom-left-hole">
+				</div>
+			</div>
+			<!-- tela de cima -->
+			<div id="top-screen" class="off">
+				<div class="tipoIcon" style="display: none;"></div>
+				<img id="imgPokemon" src="#" alt="pokemon" style="display: none;">
+				<div id="nomePokemon" style="display: none;"></div>
+			</div>
+			<!-- alto-falante direito -->
+			<div id="right-speaker">
+				<div class="speaker-hole" id="top-right-hole">
+				</div>
+				
+				<div class="speaker-hole" id="middle-right-hole">
+				</div>
+				
+				<div class="speaker-hole" id="left-right-hole">
+				</div>
+				
+				<div class="speaker-hole" id="right-right-hole">
+				</div>
+				
+				<div class="speaker-hole" id="bottom-right-hole">
+				</div>
+			</div>
+			<!-- barra divisoria -->
+			<div id="hinge">
+				<div id="hinge-light">
+				</div>
+			</div>
+
+			<!-- setinhas -->
+			<div id="d-pad">
+                <i class="fa-solid fa-angle-up"></i>
+                <i class="fa-solid fa-angle-right"></i>
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-down"></i>
+			</div>
+			
+            <!-- moldura da tela de baixo -->
+			<div id="bottom-screen-holder">
+                <!-- tela de baixo -->
+				<div id="bottom-screen" class="off">
+					<form id="formTelaBaixo">
+						<input style="visibility: hidden;" autocomplete="off" id="pesquisaPokemon" type="search" placeholder="Digite um nome ou numero">
+					</form>
+					<div id="infoTelaBaixo">
+						<!-- <p id="pokemon_altura"></p>
+						<p id="pokemon_peso"></p> -->
+					</div>	
+				</div>
+				<!-- botao do pad -->
+				<div id="home-btn">
+				</div>
+			</div>
+
+			<!-- botoes coloridos -->
+			<div id="color-button-holder">
+				<div id="blue-btn">X</div>
+				<div id="green-btn">Y</div>
+				<div id="red-btn">B</div>
+				<div id="yellow-btn">A</div>
+			</div>
+			
+            <!-- butoes de ligar -->
+			<button id="start-btn">start</button>
+			
+			<button id="select-btn">select</button>
+			
+            <!-- barra de luz -->
+			<div id="lights-holder">
+				<div id="light-1">
+				</div>
+				
+				<div id="light-2">
+				</div>
+				
+				<div id="light-3">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- butão que chama o menu de opções -->
+	<button id="btn-icon"></button>
+
+	<!-- menu aberto  -->
+	<div id="menu">
+		<!-- parte de cima do menu -->
+		<div id="options">
+			<div id="avatar"></div>
+			<span id="nameUser">nome do sujeito</span>
+			<input type="color" id="color">
+			<i class="fa-solid fa-x"></i>
+			<button class="btn btn-primary" onclick="deslogar()" id="btnDeslogar">Deslogar</button>
+		</div>
+		<!-- parte de baixo do menu -->
+		<div id="footer">
+			<!-- logo pokedex -->
+			<img class="pokedex-logo" src="../conteudo/imgs/pokedex-logo.png" alt="pokedex-logo">
+			<p>
+				trabalho de front-end essencial feito por:
+			</p>
+			<!-- lista de participantes -->
+			<ul>
+				<li>
+					<a href="https://github.com/brunazimbrao" target="_blank">Bruna Zimbrão</a>
+				</li>
+				<li>
+					<a href="https://github.com/Fabiaudi" target="_blank">Fabiana Audi</a>
+				</li>
+				<li>
+					<a href="https://github.com/GabSTeixeira" target="_blank">Gabriel Teixeira</a>
+				</li>
+				<li>
+					<a href="https://github.com/MichaelVieira021" target="_blank">Michael Vieira</a>
+				</li>
+				<li>
+					<a href="https://github.com/N7thz" target="_blank">Nathan Ferreira</a>
+				</li>
+				<li>
+					<a href="https://github.com/RicardoCastilho6" target="_blank">Ricardo Castilho</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- quadro ed opções de avatares -->
+	<div id="avatar-options">
+		<!-- avatar masculino -->
+		<div id="avatarFemale" class="avatar"><img src="../conteudo/imgs/avatar-feminino01.webp" alt="avatar01"></div>
+
+		<!-- avatar feminino -->
+		<div id="avatarMale" class="avatar"><img src="../conteudo/imgs/avatar-masculino.webp" alt="avatar02"></div>
+	</div>
+
+	<!-- audios do projeto -->
+	<audio id="sound-track" src="/conteudo/audios/soudtrack-pokemon.mp3" loop ></audio>
+	<audio id="sound-click" src="/conteudo/audios/click-setas.mp3"></audio>
+	<audio id="sound-btn" src="/conteudo/audios/click-btn.mp3"></audio>
+
+	<!-- scripts -->
+	<script src="../script/pokedexDS.js"></script>
+	<script src="../script/nintendo-ds.js"></script> 
+</body>
+</html>
